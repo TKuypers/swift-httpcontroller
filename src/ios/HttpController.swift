@@ -33,7 +33,7 @@ import Foundation
         
         let xmlString  = command.arguments[0] as! String
         let urlPath    = command.arguments[1] as! String
-        let authString = command.arguments[2] as! String
+        let authStr    = command.arguments[2] as! String
         
         
         let url: NSURL = NSURL(string: urlPath)!
